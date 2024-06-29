@@ -1,15 +1,20 @@
 Estrutura do Projeto
+
 Modelo:
 Expense.java: Classe que representa uma despesa.
 Income.java: Classe que representa uma renda.
 Balance.java: Classe que representa o balanço financeiro.
+
 Repositório:
 ExpenseRepository.java: Interface para operações de banco de dados relacionadas a despesas.
 IncomeRepository.java: Interface para operações de banco de dados relacionadas a rendas.
+
 Serviço:
 FinanceService.java: Classe que contém a lógica de negócios.
+
 Controlador:
 FinanceController.java: Classe que gerencia as requisições HTTP e retorna as respostas.
+
 Templates Thymeleaf:
 index.html: Página inicial.
 add-expense.html: Formulário para adicionar despesas.
