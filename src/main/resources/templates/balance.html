@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Balanço Financeiro</title>
+</head>
+<body>
+<h1>Balanço Financeiro</h1>
+<p>Total de Rendas: <span th:text="${balance.totalIncome}"></span></p>
+<p>Total de Despesas: <span th:text="${balance.totalExpenses}"></span></p>
+<p>Saldo Líquido: <span th:text="${balance.netBalance}"></span></p>
+<a href="/">Voltar</a>
+</body>
+</html>

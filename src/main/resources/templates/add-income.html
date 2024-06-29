@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Adicionar Renda</title>
+</head>
+<body>
+<h1>Adicionar Renda</h1>
+<form action="#" th:action="@{/api/finance/income}" th:object="${income}" method="post">
+    <label for="source">Fonte:</label>
+    <input type="text" id="source" name="source" th:field="*{source}"><br>
+    <label for="amount">Valor:</label>
+    <input type="number" id="amount" name="amount" th:field="*{amount}"><br>
+    <button type="submit">Adicionar</button>
+</form>
+<a href="/">Voltar</a>
+</body>
+</html>
