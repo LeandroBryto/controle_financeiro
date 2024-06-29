@@ -39,3 +39,5 @@ getBalance(): Método que calcula o balanço financeiro, somando todas as rendas
 @GetMapping("/add-income"): Mapeia a URL para exibir o formulário de adicionar rendas.
 @PostMapping("/api/finance/income"): Mapeia a URL para adicionar uma renda.
 @GetMapping("/balance"): Mapeia a URL para exibir o balanço financeiro.
+
+URL: http://localhost:8080
